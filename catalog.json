@@ -1,3 +1,161 @@
 {
-    
+    "jeans": {
+        "male":{
+            "11120":{
+                "name": "black jeans",
+                "price": 20,
+                "desc": "Step up your style game with our classic Black Jeans, designed to offer the perfect blend of comfort, durability, and fashion-forward appeal. Crafted from premium denim, these jeans feature a sleek and versatile silhouette that seamlessly transitions from day to night. Whether you're dressing up for a night out or keeping it casual for a day at the office, our black jeans are your go-to choice for effortless style"
+            },
+            "11230": {
+                "name": "blue jens",
+                "price": 30,
+                "desc": "Step up your style game with our classic Black Jeans, designed to offer the perfect blend of comfort, durability, and fashion-forward appeal. Crafted from premium denim, these jeans feature a sleek and versatile silhouette that seamlessly transitions from day to night. Whether you're dressing up for a night out or keeping it casual for a day at the office, our black jeans are your go-to choice for effortless style"
+            },
+            "11325": {
+                "name": "light blue jens",
+                "price": 25,
+                "desc": "Step up your style game with our classic Black Jeans, designed to offer the perfect blend of comfort, durability, and fashion-forward appeal. Crafted from premium denim, these jeans feature a sleek and versatile silhouette that seamlessly transitions from day to night. Whether you're dressing up for a night out or keeping it casual for a day at the office, our black jeans are your go-to choice for effortless style"
+            }
+        },
+        "female": {
+            "12120":{
+                "name": "black jeans",
+                "price": 20,
+                "desc": "Step up your style game with our classic Black Jeans, designed to offer the perfect blend of comfort, durability, and fashion-forward appeal. Crafted from premium denim, these jeans feature a sleek and versatile silhouette that seamlessly transitions from day to night. Whether you're dressing up for a night out or keeping it casual for a day at the office, our black jeans are your go-to choice for effortless style"
+            },
+            "12230": {
+                "name": "blue jens",
+                "price": 30,
+                "desc": "Step up your style game with our classic Black Jeans, designed to offer the perfect blend of comfort, durability, and fashion-forward appeal. Crafted from premium denim, these jeans feature a sleek and versatile silhouette that seamlessly transitions from day to night. Whether you're dressing up for a night out or keeping it casual for a day at the office, our black jeans are your go-to choice for effortless style"
+            },
+            "12325": {
+                "name": "light blue jens",
+                "price": 25,
+                "desc": "Step up your style game with our classic Black Jeans, designed to offer the perfect blend of comfort, durability, and fashion-forward appeal. Crafted from premium denim, these jeans feature a sleek and versatile silhouette that seamlessly transitions from day to night. Whether you're dressing up for a night out or keeping it casual for a day at the office, our black jeans are your go-to choice for effortless style"
+            }
+        },
+        "kids": {
+            "13120":{
+                "name": "black jeans",
+                "price": 20,
+                "desc": "Step up your style game with our classic Black Jeans, designed to offer the perfect blend of comfort, durability, and fashion-forward appeal. Crafted from premium denim, these jeans feature a sleek and versatile silhouette that seamlessly transitions from day to night. Whether you're dressing up for a night out or keeping it casual for a day at the office, our black jeans are your go-to choice for effortless style"
+            },
+            "13230": {
+                "name": "blue jens",
+                "price": 30,
+                "desc": "Step up your style game with our classic Black Jeans, designed to offer the perfect blend of comfort, durability, and fashion-forward appeal. Crafted from premium denim, these jeans feature a sleek and versatile silhouette that seamlessly transitions from day to night. Whether you're dressing up for a night out or keeping it casual for a day at the office, our black jeans are your go-to choice for effortless style"
+            },
+            "13325": {
+                "name": "light blue jens",
+                "price": 25,
+                "desc": "Step up your style game with our classic Black Jeans, designed to offer the perfect blend of comfort, durability, and fashion-forward appeal. Crafted from premium denim, these jeans feature a sleek and versatile silhouette that seamlessly transitions from day to night. Whether you're dressing up for a night out or keeping it casual for a day at the office, our black jeans are your go-to choice for effortless style"
+            }
+        }
+    },
+    "t-shirt": {
+        "male":{
+            "21120":{
+                "name": "black t-shirt",
+                "price": 20,
+                "desc": "Step up your style game with our classic Black Jeans, designed to offer the perfect blend of comfort, durability, and fashion-forward appeal. Crafted from premium denim, these jeans feature a sleek and versatile silhouette that seamlessly transitions from day to night. Whether you're dressing up for a night out or keeping it casual for a day at the office, our black jeans are your go-to choice for effortless style"
+            },
+            "21230": {
+                "name": "blue t-shirt",
+                "price": 30,
+                "desc": "Step up your style game with our classic Black Jeans, designed to offer the perfect blend of comfort, durability, and fashion-forward appeal. Crafted from premium denim, these jeans feature a sleek and versatile silhouette that seamlessly transitions from day to night. Whether you're dressing up for a night out or keeping it casual for a day at the office, our black jeans are your go-to choice for effortless style"
+            },
+            "21325": {
+                "name": "white t-shirt",
+                "price": 25,
+                "desc": "Step up your style game with our classic Black Jeans, designed to offer the perfect blend of comfort, durability, and fashion-forward appeal. Crafted from premium denim, these jeans feature a sleek and versatile silhouette that seamlessly transitions from day to night. Whether you're dressing up for a night out or keeping it casual for a day at the office, our black jeans are your go-to choice for effortless style"
+            }
+        },
+        "female": {
+            "21120":{
+                "name": "black t-shirt",
+                "price": 20,
+                "desc": "Step up your style game with our classic Black Jeans, designed to offer the perfect blend of comfort, durability, and fashion-forward appeal. Crafted from premium denim, these jeans feature a sleek and versatile silhouette that seamlessly transitions from day to night. Whether you're dressing up for a night out or keeping it casual for a day at the office, our black jeans are your go-to choice for effortless style"
+            },
+            "21230": {
+                "name": "blue t-shirt",
+                "price": 30,
+                "desc": "Step up your style game with our classic Black Jeans, designed to offer the perfect blend of comfort, durability, and fashion-forward appeal. Crafted from premium denim, these jeans feature a sleek and versatile silhouette that seamlessly transitions from day to night. Whether you're dressing up for a night out or keeping it casual for a day at the office, our black jeans are your go-to choice for effortless style"
+            },
+            "21325": {
+                "name": "white t-shirt",
+                "price": 25,
+                "desc": "Step up your style game with our classic Black Jeans, designed to offer the perfect blend of comfort, durability, and fashion-forward appeal. Crafted from premium denim, these jeans feature a sleek and versatile silhouette that seamlessly transitions from day to night. Whether you're dressing up for a night out or keeping it casual for a day at the office, our black jeans are your go-to choice for effortless style"
+            }
+        },
+        "kids": {
+            "23120":{
+                "name": "black t-shirt",
+                "price": 20,
+                "desc": "Step up your style game with our classic Black Jeans, designed to offer the perfect blend of comfort, durability, and fashion-forward appeal. Crafted from premium denim, these jeans feature a sleek and versatile silhouette that seamlessly transitions from day to night. Whether you're dressing up for a night out or keeping it casual for a day at the office, our black jeans are your go-to choice for effortless style"
+            },
+            "23230": {
+                "name": "blue t-shirt",
+                "price": 30,
+                "desc": "Step up your style game with our classic Black Jeans, designed to offer the perfect blend of comfort, durability, and fashion-forward appeal. Crafted from premium denim, these jeans feature a sleek and versatile silhouette that seamlessly transitions from day to night. Whether you're dressing up for a night out or keeping it casual for a day at the office, our black jeans are your go-to choice for effortless style"
+            },
+            "23325": {
+                "name": "white t-shirt",
+                "price": 25,
+                "desc": "Step up your style game with our classic Black Jeans, designed to offer the perfect blend of comfort, durability, and fashion-forward appeal. Crafted from premium denim, these jeans feature a sleek and versatile silhouette that seamlessly transitions from day to night. Whether you're dressing up for a night out or keeping it casual for a day at the office, our black jeans are your go-to choice for effortless style"
+            }
+        }
+    },
+    "sneakers": {
+        "male":{
+            "31120":{
+                "name": "Nike",
+                "price": 20,
+                "desc": "Step up your style game with our classic Black Jeans, designed to offer the perfect blend of comfort, durability, and fashion-forward appeal. Crafted from premium denim, these jeans feature a sleek and versatile silhouette that seamlessly transitions from day to night. Whether you're dressing up for a night out or keeping it casual for a day at the office, our black jeans are your go-to choice for effortless style"
+            },
+            "31230": {
+                "name": "Puma",
+                "price": 30,
+                "desc": "Step up your style game with our classic Black Jeans, designed to offer the perfect blend of comfort, durability, and fashion-forward appeal. Crafted from premium denim, these jeans feature a sleek and versatile silhouette that seamlessly transitions from day to night. Whether you're dressing up for a night out or keeping it casual for a day at the office, our black jeans are your go-to choice for effortless style"
+            },
+            "31325": {
+                "name": "New Balance",
+                "price": 25,
+                "desc": "Step up your style game with our classic Black Jeans, designed to offer the perfect blend of comfort, durability, and fashion-forward appeal. Crafted from premium denim, these jeans feature a sleek and versatile silhouette that seamlessly transitions from day to night. Whether you're dressing up for a night out or keeping it casual for a day at the office, our black jeans are your go-to choice for effortless style"
+            }
+        },
+        "female": {
+            "31120":{
+                "name": "Nike",
+                "price": 20,
+                "desc": "Step up your style game with our classic Black Jeans, designed to offer the perfect blend of comfort, durability, and fashion-forward appeal. Crafted from premium denim, these jeans feature a sleek and versatile silhouette that seamlessly transitions from day to night. Whether you're dressing up for a night out or keeping it casual for a day at the office, our black jeans are your go-to choice for effortless style"
+            },
+            "31230": {
+                "name": "Puma",
+                "price": 30,
+                "desc": "Step up your style game with our classic Black Jeans, designed to offer the perfect blend of comfort, durability, and fashion-forward appeal. Crafted from premium denim, these jeans feature a sleek and versatile silhouette that seamlessly transitions from day to night. Whether you're dressing up for a night out or keeping it casual for a day at the office, our black jeans are your go-to choice for effortless style"
+            },
+            "31325": {
+                "name": "New Balance",
+                "price": 25,
+                "desc": "Step up your style game with our classic Black Jeans, designed to offer the perfect blend of comfort, durability, and fashion-forward appeal. Crafted from premium denim, these jeans feature a sleek and versatile silhouette that seamlessly transitions from day to night. Whether you're dressing up for a night out or keeping it casual for a day at the office, our black jeans are your go-to choice for effortless style"
+            }
+        },
+        "kids": {
+            "33120":{
+                "name": "Nike",
+                "price": 20,
+                "desc": "Step up your style game with our classic Black Jeans, designed to offer the perfect blend of comfort, durability, and fashion-forward appeal. Crafted from premium denim, these jeans feature a sleek and versatile silhouette that seamlessly transitions from day to night. Whether you're dressing up for a night out or keeping it casual for a day at the office, our black jeans are your go-to choice for effortless style"
+            },
+            "33230": {
+                "name": "Puma",
+                "price": 30,
+                "desc": "Step up your style game with our classic Black Jeans, designed to offer the perfect blend of comfort, durability, and fashion-forward appeal. Crafted from premium denim, these jeans feature a sleek and versatile silhouette that seamlessly transitions from day to night. Whether you're dressing up for a night out or keeping it casual for a day at the office, our black jeans are your go-to choice for effortless style"
+            },
+            "33325": {
+                "name": "New Balance",
+                "price": 25,
+                "desc": "Step up your style game with our classic Black Jeans, designed to offer the perfect blend of comfort, durability, and fashion-forward appeal. Crafted from premium denim, these jeans feature a sleek and versatile silhouette that seamlessly transitions from day to night. Whether you're dressing up for a night out or keeping it casual for a day at the office, our black jeans are your go-to choice for effortless style"
+            }
+        }
+    }
 }
