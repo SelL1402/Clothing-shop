@@ -1,0 +1,32 @@
+.footer{
+    background-color: #fff;
+    min-height: 200px;
+    padding: 10px 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    &-name{
+        cursor: pointer;
+    }
+    &-feedback{
+        display: flex;
+        flex-direction: column;
+        &-list{
+            display: flex;
+            margin-top: 10px;
+            justify-content: center;
+            &-item{
+                border: 2px #000 solid;
+                border-radius: 50%;
+                padding: 8px 10px 5px 10px;
+                transition: .3s;
+                &:not(:last-child){
+                    margin-right: 20px;
+                }
+                &:hover{
+                    transform: translateY(-10px);
+                }
+            }
+        }
+    }
+}

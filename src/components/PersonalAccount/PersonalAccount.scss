@@ -1,0 +1,54 @@
+.personal-account-page{
+    width: 100%;
+    min-height: 100%;
+    &-content{
+        display: grid;
+        grid-template-columns: 300px 1200px;
+        height: 100%;
+        justify-content: center;
+        &-filters-list{
+            padding: 0 15px;
+            &-item{
+                font-size: 20px;
+                &:not(:last-child){
+                    margin-bottom: 10px;
+                }
+            }
+        }
+        &-main{
+            padding: 20px;
+            &-form{
+                display: grid;
+                grid-template-columns: repeat(2, 200px);
+                column-gap: 30px;
+                &-inputRow{
+                    display: flex;
+                    flex-direction: column;
+
+                    &-input{
+                        width: 200px;
+                        height: 50px;
+                        padding: 0 5px;
+                        &:not(:last-child){
+                            margin-bottom: 20px;
+                        }
+                    }
+                }
+                &-button{
+                    width: 430px;
+                    height: 50px;
+                    margin-top: 20px;
+                    background-color: orange;
+                    color: white;
+                    border: none;
+                    transition: .5s;
+                    &:hover{
+                        background-color: white;
+                        border: 2px orange solid;
+                        color: orange;
+                    }
+                }
+            }
+        }
+    }
+}

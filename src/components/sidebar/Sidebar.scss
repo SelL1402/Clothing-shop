@@ -1,0 +1,14 @@
+aside{
+    background-color: #ebebeb;
+    margin-top: 20px;
+    position:fixed;
+}
+.asidebar-nav-list{
+    padding-left: 30px;
+    font-size: 28px;
+    font-weight: 300;
+    text-transform: uppercase;
+    &-item-link:hover{
+        text-decoration: underline;
+    }
+}
