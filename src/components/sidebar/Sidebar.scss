@@ -8,7 +8,14 @@ aside{
     font-size: 28px;
     font-weight: 300;
     text-transform: uppercase;
-    &-item-link:hover{
-        text-decoration: underline;
+    &-item-btn{
+        font-size: 24px;
+        border: none;
+        max-width: 140px;
+        background-color: transparent;
+        transition: .5s;
+        &:hover{
+            transform: translateY(-10px);
+        }
     }
 }
