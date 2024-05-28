@@ -9,7 +9,26 @@ export const apiSlice = createApi({
             query: () => '/current',
             providesTags: ['Current']
         }),
+        getCart: builder.query({
+            query: () => '/cart',
+            providesTags: ['Cart']
+        }),
+        addToCart: builder.mutation({
+            query: good => ({
+                url: '/cart',
+                method: 'POST',
+                body: good
+            }),
+            invalidatesTags: ['Goods']
+        }),
+        deleteItem: builder.mutation({
+            query: id => ({
+                url: `/cart/${id}`,
+                method: 'DELETE'
+            }),
+            invalidatesTags: [`Goods`]
+        })
     })
 });
 
-export const {useGetCurrentQuery} = apiSlice;
+export const {useGetCurrentQuery, useGetCartQuery, useAddToCartMutation, useDeleteItemMutation} = apiSlice;

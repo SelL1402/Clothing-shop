@@ -1,47 +1,83 @@
 {
-    "current":[
-        {
-            "id": 1,
-            "price": 20,
-            "type": "clothes",
-            "name": "black jeans",
-            "desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor fugit quo incidunt!"
-        },
-        {
-            "id": 2,
-            "price": 20,
-            "type": "shoes",
-            "name": "White t-shirt",
-            "desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor fugit quo incidunt!"
-        },
-        {
-            "id": 3,
-            "price": 20,
-            "type": "accessories",
-            "name": "New Balance",
-            "desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor fugit quo incidunt!"
-        }
-    ],
-    "filters":[
-        {
-            "id": "all",
-            "name": "all",
-            "label": "All"
-        },
-        {
-            "id": "clothes",
-            "name": "clothes",
-            "label": "Clothes"
-        },
-        {
-            "id": "shoes",
-            "name": "shoes",
-            "label": "Shoes"
-        },
-        {
-            "id": "accessories",
-            "name": "accessories",
-            "label": "accessories"
-        }
-    ]
+  "current": [
+    {
+      "id": "1",
+      "price": 20,
+      "type": "clothes",
+      "name": "black jeans",
+      "desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor fugit quo incidunt!",
+      "audi": "kids"
+    },
+    {
+      "id": "2",
+      "price": 20,
+      "type": "shoes",
+      "name": "White t-shirt",
+      "desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor fugit quo incidunt!",
+      "audi": "male"
+    },
+    {
+      "id": "3",
+      "price": 20,
+      "type": "accessories",
+      "name": "New Balance",
+      "desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor fugit quo incidunt!",
+      "audi": "female"
+    },
+    {
+      "id": "4",
+      "price": 20,
+      "type": "accessories",
+      "name": "New Balance",
+      "desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor fugit quo incidunt!",
+      "audi": "male"
+    },
+    {
+      "id": "5",
+      "price": 20,
+      "type": "accessories",
+      "name": "New Balance",
+      "desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor fugit quo incidunt!",
+      "audi": "kids"
+    },
+    {
+      "id": "6",
+      "price": 20,
+      "type": "accessories",
+      "name": "New Balance",
+      "desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor fugit quo incidunt!",
+      "audi": "female"
+    },
+    {
+      "id": "7",
+      "price": 20,
+      "type": "accessories",
+      "name": "New Balance",
+      "desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor fugit quo incidunt!",
+      "audi": "kids"
+    }
+  ],
+  "cart": [],
+  "filters": [
+    {
+      "id": "all",
+      "name": "all",
+      "label": "All"
+    },
+    {
+      "id": "clothes",
+      "name": "clothes",
+      "label": "Clothes"
+    },
+    {
+      "id": "shoes",
+      "name": "shoes",
+      "label": "Shoes"
+    },
+    {
+      "id": "accessories",
+      "name": "accessories",
+      "label": "accessories"
+    }
+  ]
 }

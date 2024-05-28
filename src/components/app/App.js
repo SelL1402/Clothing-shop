@@ -3,7 +3,7 @@ import { MainPage, ProductPage, CartPage, PersonalAccountPage } from '../pages';
 function App() {
   return (
     <div className="app">
-      <MainPage/>
+      <CartPage/>
     </div>
   );
 }

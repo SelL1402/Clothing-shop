@@ -29,7 +29,7 @@ const Main = () => {
     const renderMainList = (arr) =>{
         return arr.map(({id, ...props}) =>{
             return(
-                <CardItem key={id} {...props} />
+                <CardItem key={id} {...{id,...props}} />
             );
         });
     };

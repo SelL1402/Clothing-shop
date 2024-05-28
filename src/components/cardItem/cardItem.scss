@@ -2,6 +2,12 @@
     width: auto;
     height: 500px;
     cursor: pointer;
+    &-add-to-cart{
+        border: none;
+        width: 50px;
+        height: 30px;
+        background-color: transparent;
+    }
     &-img{
         object-fit: cover;
         width: 100%; 
@@ -26,6 +32,9 @@
             &:hover{
                 transform: scale(1.2);
              }
+            &:active{
+            transform: translateY(10px);
+            }
         }
     }
 }
