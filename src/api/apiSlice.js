@@ -6,7 +6,7 @@ export const apiSlice = createApi({
     tagTypes: ['Current'],
     endpoints: builder => ({
         getCurrent: builder.query({
-            query: () => '/current',
+            query: (id = '') => `/current/${id}`,
             providesTags: ['Current']
         }),
         getCart: builder.query({

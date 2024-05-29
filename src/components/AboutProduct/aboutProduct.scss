@@ -26,13 +26,14 @@
         &-info{
             width: 700px;
             margin-left: 50px;
-            &-desc{
-                margin-top: 30px;
+            &-price{
+                margin-top: 15px;
+                font-size: 24px;
                 display: block;
                 width: 400px;
             }
             &-btns{
-                margin-top: 30px;
+                margin-top: 15px;
                 display: flex;
                 align-items: center;
             }
@@ -61,11 +62,17 @@
     &:hover{
         transform: translateY(-5px);
     }
+    &:active{
+        transform: translateY(10px);
+        }
 }
 .add-to-cart{
     transition: .2s;
     &:hover{
         transform: translateY(-5px);
     }
+    &:active{
+        transform: translateY(10px);
+        }
 }
 

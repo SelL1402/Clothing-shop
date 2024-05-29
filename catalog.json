@@ -6,7 +6,13 @@
       "type": "clothes",
       "name": "black jeans",
       "desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor fugit quo incidunt!",
-      "audi": "kids"
+      "audi": "kids",
+      "compound": "100% polyester",
+      "imgs":{
+        "first": "https://cdn.mfs.ua/cache/1/lAbhk6oc4zfCdj3gvxI1S56YEsnJEClO.jpg?w=1076&h=1076&fit=contain&s=f26c88915696d43659fdc01ac3fe1e7e",
+        "second": "https://cdn.mfs.ua/cache/1/AkiMJNiUFbN2PX9762yH7aL8zR3ybteI.jpg?w=575&h=805&fit=crop-center&s=35852c7f36df4d998b4a24bfb13e1feb",
+        "third": "https://cdn.mfs.ua/cache/1/Fn5CWTX5U6TbAEycpTZjS3XdtcvAY0tA.jpg?w=575&h=805&fit=crop-center&s=24f981c98d40e512b121899d3ddfd39d"
+      }
     },
     {
       "id": "2",
@@ -14,7 +20,8 @@
       "type": "shoes",
       "name": "White t-shirt",
       "desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor fugit quo incidunt!",
-      "audi": "male"
+      "audi": "male",
+      "compound": "100% polyester"
     },
     {
       "id": "3",
@@ -22,7 +29,8 @@
       "type": "accessories",
       "name": "New Balance",
       "desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor fugit quo incidunt!",
-      "audi": "female"
+      "audi": "female",
+      "compound": "100% polyester"
     },
     {
       "id": "4",
@@ -30,7 +38,8 @@
       "type": "accessories",
       "name": "New Balance",
       "desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor fugit quo incidunt!",
-      "audi": "male"
+      "audi": "male",
+      "compound": "100% polyester"
     },
     {
       "id": "5",
@@ -38,7 +47,8 @@
       "type": "accessories",
       "name": "New Balance",
       "desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor fugit quo incidunt!",
-      "audi": "kids"
+      "audi": "kids",
+      "compound": "100% polyester"
     },
     {
       "id": "6",
@@ -46,7 +56,8 @@
       "type": "accessories",
       "name": "New Balance",
       "desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor fugit quo incidunt!",
-      "audi": "female"
+      "audi": "female",
+      "compound": "100% polyester"
     },
     {
       "id": "7",
@@ -54,7 +65,8 @@
       "type": "accessories",
       "name": "New Balance",
       "desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor fugit quo incidunt!",
-      "audi": "kids"
+      "audi": "kids",
+      "compound": "100% polyester"
     }
   ],
   "cart": [],

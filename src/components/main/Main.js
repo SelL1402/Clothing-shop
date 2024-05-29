@@ -3,8 +3,7 @@ import { useMemo } from "react";
 import './main.scss'
 import CardItem from '../cardItem/CardItem';
 import { useSelector } from "react-redux";
-const Main = () => {
-    
+const Main = ({type}) => {
     const {
         data: current = [],
         isError
@@ -34,12 +33,23 @@ const Main = () => {
         });
     };
 
-    const elements = renderMainList(filteredGoods)
+    const TypeRender = (arr, type) => {
+        console.log(arr)
+        console.log(type)
+        const items = arr.filter((item) => {
+            return item.audi === type
+        })
+        return items
+    } 
 
+    // const elements = renderMainList(TypeRender(current, type))
+    const elements = type ? renderMainList(TypeRender(current, type)) : renderMainList(filteredGoods)
     return(
-        <main>
-            {elements}
-        </main>
+        <>
+            <main>
+                {elements}
+            </main>
+        </>
     )
 }
 
