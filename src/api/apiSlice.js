@@ -1,8 +1,8 @@
-import {createApi, fetchBaseQuery} from '@reduxjs/toolkit/query/react';
+import { createApi, fetchBaseQuery } from '@reduxjs/toolkit/query/react';
 
 export const apiSlice = createApi({
     reducerPath: 'api',
-    baseQuery: fetchBaseQuery({baseUrl: 'http://localhost:3001'}),
+    baseQuery: fetchBaseQuery({ baseUrl: 'http://localhost:3001' }),
     tagTypes: ['Current'],
     endpoints: builder => ({
         getCurrent: builder.query({
@@ -19,16 +19,16 @@ export const apiSlice = createApi({
                 method: 'POST',
                 body: good
             }),
-            invalidatesTags: ['Goods']
+            invalidatesTags: ['Cart'] // Invalidate the 'Cart' tag after adding an item
         }),
         deleteItem: builder.mutation({
             query: id => ({
                 url: `/cart/${id}`,
                 method: 'DELETE'
             }),
-            invalidatesTags: [`Goods`]
-        })
+            invalidatesTags: ['Cart'] // Invalidate the 'Cart' tag after deleting an item
+        }),
     })
 });
 
-export const {useGetCurrentQuery, useGetCartQuery, useAddToCartMutation, useDeleteItemMutation} = apiSlice;
+export const { useGetCurrentQuery, useGetCartQuery, useAddToCartMutation, useDeleteItemMutation } = apiSlice;

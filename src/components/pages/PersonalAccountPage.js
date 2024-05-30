@@ -1,5 +1,6 @@
 import Header from "../header/Header";
 import PersonalAccount from "../PersonalAccount/PersonalAccount";
+import Footer from "../footer/Footer";
 const PersonalAccountPage = () => {
     return(
         <>
@@ -7,6 +8,7 @@ const PersonalAccountPage = () => {
             <div className="shell">
                 <PersonalAccount/>
             </div>
+            <Footer/>
         </>
     )
 }

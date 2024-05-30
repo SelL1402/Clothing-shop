@@ -34,12 +34,21 @@ const Main = ({type}) => {
     };
 
     const TypeRender = (arr, type) => {
-        console.log(arr)
-        console.log(type)
         const items = arr.filter((item) => {
             return item.audi === type
         })
-        return items
+
+        const filteredGoods = useMemo(() => {
+            const filteredGoods = items.slice();
+    
+            if(activeFilter === 'all') {
+                return filteredGoods;
+            } else {
+                return filteredGoods.filter(item => item.type === activeFilter);
+            }
+        }, [items, activeFilter]);
+        
+        return filteredGoods
     } 
 
     // const elements = renderMainList(TypeRender(current, type))

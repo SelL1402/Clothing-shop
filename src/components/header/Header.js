@@ -21,9 +21,7 @@ const Header = () => {
                     <NavLink end to="/cart"><FaBasketShopping size={30}/></NavLink>
                 </div>
                 <div className="header-nav-icon">
-                    <a href="#">
-                        <FaRegUser size={30}/>   
-                    </a>
+                    <NavLink end to="/personalAccount"><FaRegUser size={30}/></NavLink>
                 </div>
             </nav>
         </header>
