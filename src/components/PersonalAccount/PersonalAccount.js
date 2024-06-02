@@ -1,38 +1,74 @@
 import './PersonalAccount.scss';
+import Tab from 'react-bootstrap/Tab';
+import Tabs from 'react-bootstrap/Tabs';
 
 const PersonalAccount = () => {
     return(
         <div className="personal-account-page">
             <div className="personal-account-page-content">
-                <div className="personal-account-page-content-filters">
-                    <h1 className="personal-account-page-content-filters">Info about me</h1>
-                    <ul className="personal-account-page-content-filters-list">
-                        <li className="personal-account-page-content-filters-list-item">
-                            My account
-                        </li>
-                        <li className="personal-account-page-content-filters-list-item">
-                            My orders
-                        </li>
-                    </ul>
-                </div>
-                <div className="personal-account-page-content-main">
-                    <form className='personal-account-page-content-main-form' action="">
-                        <div className="personal-account-page-content-main-form-inputRow">
-                            <input className="personal-account-page-content-main-form-inputRow-input" type="text" placeholder='Mail'/>
-                            <input className="personal-account-page-content-main-form-inputRow-input" type="text" placeholder='Number phone'/>
-                            <input className="personal-account-page-content-main-form-inputRow-input" type="text" placeholder='Name'/>
-                        </div>
-                        <div className="personal-account-page-content-main-form-inputRow">
-                            <input className="personal-account-page-content-main-form-inputRow-input" type="text" placeholder='Last name'/>
-                            <input className="personal-account-page-content-main-form-inputRow-input" type="text" placeholder='Date birthday'/>
-                            <input className="personal-account-page-content-main-form-inputRow-input" type="text" placeholder='Sex'/>
-                        </div>
-                        <button className="personal-account-page-content-main-form-button">Save changes</button>
-                    </form>
-                </div>
+                <Tabs
+                defaultActiveKey="account"
+                id="uncontrolled-tab-example"
+                className="personal-account-page-content-tab-wrapper border-0"
+                fill
+                >
+                    <Tab eventKey="account" className="tab border" title={<span className="personal-account-page-content-tab-wrapper-title">My account</span>}>
+                        <form className="personal-account-page-content-tab-wrapper-form" action="">
+                            <div className="personal-account-page-content-tab-wrapper-personal-data">
+                                <div className="personal-account-page-content-tab-wrapper-personal-data-col">
+                                    <div className="personal-account-page-content-tab-wrapper-personal-data-col-row">
+                                        <label className="personal-account-page-content-tab-wrapper-personal-data-col-row-label" htmlFor="">E-mail</label>
+                                        <input className="personal-account-page-content-tab-wrapper-personal-data-col-row-input" type="email" />
+                                    </div>
+                                    <div className="personal-account-page-content-tab-wrapper-personal-data-col-row">
+                                        <label className="personal-account-page-content-tab-wrapper-personal-data-col-row-label" htmlFor="">Name</label>
+                                        <input className="personal-account-page-content-tab-wrapper-personal-data-col-row-input" type="text" />
+                                    </div>
+                                    <div className="personal-account-page-content-tab-wrapper-personal-data-col-row">
+                                        <label className="personal-account-page-content-tab-wrapper-personal-data-col-row-label" htmlFor="">Date birthday</label>
+                                        <input className="personal-account-page-content-tab-wrapper-personal-data-col-row-input" type="date" />
+                                    </div>
+                                    <div className="personal-account-page-content-tab-wrapper-personal-data-col-row">
+                                        <label className="personal-account-page-content-tab-wrapper-personal-data-col-row-label" htmlFor="">Number</label>
+                                        <input className="personal-account-page-content-tab-wrapper-personal-data-col-row-input" type="number" />
+                                    </div>
+                                </div>
+                                <div className="personal-account-page-content-tab-wrapper-personal-data-col">
+                                    <div className="personal-account-page-content-tab-wrapper-personal-data-col-row">
+                                        <label className="personal-account-page-content-tab-wrapper-personal-data-col-row-label" htmlFor="">Surname</label>
+                                        <input className="personal-account-page-content-tab-wrapper-personal-data-col-row-input" type="text" />
+                                    </div>
+                                    <div className="personal-account-page-content-tab-wrapper-personal-data-col-row">
+                                        <label className="personal-account-page-content-tab-wrapper-personal-data-col-row-label" htmlFor="">Sex</label>
+                                        <input className="personal-account-page-content-tab-wrapper-personal-data-col-row-input" type="text" />
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="personal-account-page-content-tab-wrapper-password">
+                                <div className="personal-account-page-content-tab-wrapper-password-title">Password</div>
+                                <div className="personal-account-page-content-tab-wrapper-password-col">
+                                    <div className="personal-account-page-content-tab-wrapper-password-col-row">
+                                        <label className="personal-account-page-content-tab-wrapper-personal-data-col-row-label" htmlFor="">New password</label>
+                                        <input className="personal-account-page-content-tab-wrapper-personal-data-col-row-input" type="password" />
+                                    </div>
+                                    <div className="personal-account-page-content-tab-wrapper-password-col-row">
+                                        <label className="personal-account-page-content-tab-wrapper-personal-data-col-row-label" htmlFor="">Confirm the new password</label>
+                                        <input className="personal-account-page-content-tab-wrapper-personal-data-col-row-input" type="password" />
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                        <button className="personal-account-page-content-tab-wrapper-form-button">Confirm</button>
+                    </Tab>
+                    <Tab eventKey="orders" className="tab border" title={<span className="personal-account-page-content-tab-wrapper-title">My orders</span>}>
+                        Tab content for Profile
+                    </Tab>
+                    <Tab eventKey="support" className="tab border" title={<span className="personal-account-page-content-tab-wrapper-title">Support</span>}>
+                        Tab content for Contact
+                    </Tab>
+                </Tabs>
             </div>
         </div>
     )
 }
-
 export default PersonalAccount;

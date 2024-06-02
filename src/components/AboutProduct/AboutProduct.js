@@ -6,11 +6,10 @@ import './aboutProduct.scss'
 import CardItem from '../cardItem/CardItem';
 import { useParams } from 'react-router-dom';
 import {useGetCurrentQuery} from "../../api/apiSlice"
-import { useState } from 'react';
-
+import { useAddToCartMutation } from '../../api/apiSlice';
 const AboutProduct = () => {
     const {itemId} = useParams();
-
+    const [addToCart] = useAddToCartMutation();
     const {
         data: currentItem = [],
     } = useGetCurrentQuery(itemId);
@@ -27,9 +26,23 @@ const AboutProduct = () => {
     }
 
     const elements = otherItems(items);
-    const {price, name, desc, compound, imgs = {}} = currentItem;
+    const {price, name, desc, compound, imgs = {}, id, type, audi} = currentItem;
     const {first, second, third} = imgs;
-    
+
+    const onAddToCart = (e) => {
+        e.preventDefault();
+        const newGood = {
+            id: id,
+            price: price,
+            type: type,
+            name: name,
+            desc: desc,
+            audi: audi,
+            imgs: imgs
+        }
+
+        addToCart(newGood);
+    }
     return(
         <div className="about-product">
             <div className="about-product-top">
@@ -57,7 +70,7 @@ const AboutProduct = () => {
                         <h1 className="about-product-content-info-title">{name}</h1>
                         <p className="about-product-content-info-price">{price}$</p>
                         <div className="about-product-content-info-btns">
-                            <BsCartPlus className="add-to-cart" size={30}/>
+                            <button onClick={(e)=>onAddToCart(e)}><BsCartPlus className="add-to-cart" size={30}/></button>
                             <button className='order'>Order</button>
                         </div>
                         <div className="about-product-content-info-compound">

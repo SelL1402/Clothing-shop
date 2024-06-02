@@ -2,53 +2,79 @@
     width: 100%;
     min-height: 100%;
     &-content{
-        display: grid;
-        grid-template-columns: 300px 1200px;
         height: 100%;
         justify-content: center;
-        &-filters-list{
-            padding: 0 15px;
-            &-item{
-                font-size: 20px;
-                &:not(:last-child){
-                    margin-bottom: 10px;
-                }
+        &-tab-wrapper{
+            &-title{
+                font-size: 24px;
             }
-        }
-        &-main{
-            padding: 20px;
             &-form{
-                display: grid;
-                grid-template-columns: repeat(2, 200px);
-                column-gap: 30px;
-                &-inputRow{
-                    display: flex;
-                    flex-direction: column;
-
-                    &-input{
-                        width: 200px;
-                        height: 50px;
-                        padding: 0 5px;
-                        &:not(:last-child){
-                            margin-bottom: 20px;
-                        }
+                display: flex;
+                &-button{
+                    margin-top: 30px;
+                    padding: 5px 10px;
+                    background-color: white;
+                    border: 2px black solid;
+                    border-radius: 6px;
+                    font-size: 18px;
+                    width: 300px;
+                    transition: .4s;
+                    &:hover{
+                        transform: translateY(-15px);
+                    }
+                    &:active{
+                        transform: translateY(20px);
                     }
                 }
-                &-button{
-                    width: 430px;
-                    height: 50px;
-                    margin-top: 20px;
-                    background-color: orange;
-                    color: white;
-                    border: none;
-                    transition: .5s;
-                    &:hover{
-                        background-color: white;
-                        border: 2px orange solid;
-                        color: orange;
+            }
+            &-personal-data{
+                display: grid;
+                grid-template-columns: 250px 250px;
+                column-gap: 15px;
+                margin-top: 36px;
+                &-col{
+                    &-row{
+                        display: flex;
+                        flex-direction: column;
+                        &:not(:last-child){
+                            margin-bottom: 12px;
+                        }
+                        &-input{
+                            height: 40px;
+                        }
+                        &-label{
+                            font-size: 18px;
+                        }
+                    }
+                    &:last-child{
+                        display: flex;
+                        flex-direction: column;
+                        align-items: left;
+                        justify-content: center;
+                    }
+                }
+            }
+            &-password{
+                margin-left: 40px;
+                &-title{
+                    font-size: 24px;
+                }
+                &-col-row{
+                    display: flex;
+                    flex-direction: column;
+                    &:not(:last-child){
+                        margin-bottom: 12px;
                     }
                 }
             }
         }
     }
+}
+
+.tab{
+    background-color: white;
+    height: 80vh;
+    border-radius: 0;
+    padding: 15px;
+    margin-bottom: 20px;
 }
