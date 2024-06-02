@@ -1,11 +1,13 @@
 import './App.css';
-import { MainPage, ProductPage, CartPage, PersonalAccountPage, ProductsPage } from '../pages';
+import { MainPage, ProductPage, CartPage, PersonalAccountPage, ProductsPage, LoginPage, RegisterPage} from '../pages';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 function App() {
   return (
     <Router>
       <div className="app">
         <Routes>
+          <Route exact path="/login" Component={<LoginPage/>}/>
+          <Route exact path="/register" Component={<RegisterPage/>}/>
           <Route path="/" element={<MainPage/>}/>
           <Route path="/:itemId" element={<ProductPage/>}/>
           <Route path="/productsPage/Men" element={<ProductsPage type="male"/>}/>

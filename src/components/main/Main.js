@@ -3,6 +3,8 @@ import { useMemo } from "react";
 import './main.scss'
 import CardItem from '../cardItem/CardItem';
 import { useSelector } from "react-redux";
+import { redirect } from "react-router-dom";
+
 const Main = ({type}) => {
     const {
         data: current = [],
@@ -55,6 +57,7 @@ const Main = ({type}) => {
     const elements = type ? renderMainList(TypeRender(current, type)) : renderMainList(filteredGoods)
     return(
         <>
+            <redirect to="/login"/>
             <main>
                 {elements}
             </main>
