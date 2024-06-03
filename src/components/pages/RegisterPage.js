@@ -1,9 +1,13 @@
-const RegisterPage = () => {
+import { Link } from "react-router-dom";
+import SignUp from "../SignUp/SignUp";
+
+const LoginPage = () => {
     return(
         <>
-            <p> Already have an account <Link to="/login"></Link></p>
+            <SignUp/>
+            <p> Alrea have an account <Link to="/login">login</Link></p>
         </>
     )
 }
 
-export default RegisterPage;
+export default LoginPage;

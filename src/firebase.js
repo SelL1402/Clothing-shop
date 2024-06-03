@@ -5,12 +5,12 @@ import { initializeApp } from "firebase/app";
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: process.env.REACT_APP_FIREBASE_API_KEY,
-  authDomain: process.env.REACT_APP_FIREBASE_AUTH_DOMAIN,
-  projectId: process.env.REACT_APP_FIREBASE_PORJECT_ID,
-  storageBucket: process.env.REACT_APP_FIREBASE_STORAGE_BUCKET,
-  messagingSenderId: process.env.REACT_APP_FIREBASE_MESSAGING_SENDER_ID,
-  appId: process.env.REACT_APP_FIREBASE_APP_ID
+  apiKey: "AIzaSyCGzMqfvQHTCEsSg8TvJ5LlptNkHWKP7z4",
+  authDomain: "clothin-shop.firebaseapp.com",
+  projectId: "clothin-shop",
+  storageBucket: "clothin-shop.appspot.com",
+  messagingSenderId: "304171369634",
+  appId: "1:304171369634:web:f30c8fb6b81e8b2dd7c3fb"
 };
 
 // Initialize Firebase

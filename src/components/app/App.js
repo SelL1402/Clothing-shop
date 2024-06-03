@@ -6,8 +6,8 @@ function App() {
     <Router>
       <div className="app">
         <Routes>
-          <Route exact path="/login" Component={<LoginPage/>}/>
-          <Route exact path="/register" Component={<RegisterPage/>}/>
+          <Route path="/login" element={<LoginPage/>}/>
+          <Route path="/register" element={<RegisterPage/>}/>
           <Route path="/" element={<MainPage/>}/>
           <Route path="/:itemId" element={<ProductPage/>}/>
           <Route path="/productsPage/Men" element={<ProductsPage type="male"/>}/>

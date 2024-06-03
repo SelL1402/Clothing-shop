@@ -1,6 +1,6 @@
 import { configureStore } from "@reduxjs/toolkit";
 
-import userReducer from './Slices/UserSlice';
+import user from '../store/Slices/UserSlice'
 
 import filters from '../components/sidebar/SidebarSlice';
 import { apiSlice } from "../api/apiSlice";
@@ -15,10 +15,10 @@ const stringMiddleware = () => (next) => (action) => {
 };
 
 const store = configureStore({
-    reducer: {  filters, 
+    reducer: {  filters,
+                user, 
                 [apiSlice.reducerPath]: apiSlice.reducer},
                 middleware: getDefaultMiddleware => getDefaultMiddleware().concat(stringMiddleware, apiSlice.middleware),
-                user: userReducer,
     devTools: process.env.NODE_ENV !== 'production'
 })
 
